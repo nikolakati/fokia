@@ -1,11 +1,9 @@
 # Labeling Guidelines
 
 ## Goal
-
 These guidelines help annotators label frames from Haxan / Häxan consistently while respecting the film's historical distance, sensitive subject matter and hybrid documentary-fiction form.
 
 ## Basic Annotation Steps
-
 1. Look at the frame without guessing beyond what is visible.
 2. Choose one primary_object_label from docs/taxonomy.md.
 3. Add zero or more secondary_object_labels, separated by semicolons.
