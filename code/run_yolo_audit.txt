@@ -1,0 +1,14 @@
+Suggested YOLO audit procedure for Haxan / Häxan
+
+1. Build the curated image set first.
+2. Run a general object detector such as YOLOv8/YOLO11 on data/images/curated.
+3. Save results in data/yolo_audit_results.csv.
+4. Focus the audit on failures that matter critically, not just accuracy numbers.
+
+Recommended columns are already included in data/yolo_audit_results.csv.
+
+Questions to answer in the audit:
+- Does the model miss staged bodies, costumes, religious objects or torture devices?
+- Does it misread demons, masks, diagrams or intertitles as modern objects?
+- Are low contrast, tinting, silent-film makeup and theatrical sets causing systematic errors?
+- What does the model's failure reveal about using contemporary computer vision on archival cinema?
