@@ -1,52 +1,115 @@
-# Taxonomy for Haxan / Häxan (1922)
+# Taxonomy
 
-This taxonomy is designed for frame-level annotation. Annotators should choose one primary_object_label, optional secondary_object_labels separated by semicolons, and one narrative_label.
+## 1. Οπτικές κατηγορίες αντικειμένων, σωμάτων, χώρων ή props
 
-## Primary Object / Visual Motif Labels
+### demon_figures
+Ορισμός: Δαιμονική φιγούρα που εμφανίζεται ως κεντρικό οπτικό στοιχείο του frame.
 
-| Label | Use When |
-| --- | --- |
-| intertitle_or_text | The frame is mainly an intertitle, caption, diagram label or written explanation. |
-| diagram_or_model | The frame shows a model, chart, cosmological diagram, map or educational display. |
-| book_or_manuscript | A book, manuscript, page, engraving or scholarly source is visually central. |
-| witch_accused_woman | A woman is framed as accused, suspected or identified as a witch within the film. |
-| devil_or_demon | The devil, a demon, monster costume or explicitly supernatural figure is central. |
-| clergy_or_inquisitor | Priests, monks, judges, inquisitors or religious authorities are central. |
-| trial_or_interrogation | A formal accusation, questioning, court-like scene or forced confession is central. |
-| torture_or_execution_device | Torture equipment, execution imagery, chains, stocks, fire or punishment apparatus is central. |
-| ritual_or_sabbath | The scene suggests ritual gathering, sabbath, spell, procession or occult ceremony. |
-| domestic_interior | Household space, bed, table, kitchen, family room or private room is central. |
-| medical_or_psychological_scene | Modern doctors, nurses, institutional care or psychological explanation is central. |
-| crowd_or_mob | A crowd, mass reaction or collective accusation is central. |
-| close_up_face | The expressive face is the primary visual subject. |
-| special_effect_shot | The frame is mainly interesting because of superimposition, animation, trick photography or staged illusion. |
-| landscape_or_exterior | Outdoor setting, village, street, field or sky is central. |
-| unclear_or_other | No label above fits confidently. Add a note. |
+Κριτήρια ένταξης: Χρησιμοποιείται όταν το frame δείχνει τον δαίμονα. Η φιγούρα πρέπει να οργανώνει το frame ως σατανικό.
 
-## Secondary Labels
+Κριτήρια αποκλεισμού: Δεν χρησιμοποιείται όταν το frame δείχνει απλό ανθρώπινο σώμα χωρίς δαιμονικά χαρακτηριστικά. 
 
-animal; child; corpse_or_death; fire; flying_or_levitation; gesture_pointing; group_of_women; male_authority; mask_or_costume; nudity_sensitive; religious_object; skeleton_or_bones; weapon_or_tool; window_or_threshold
+/raw_frames/nosferatu_raw_000169.jpg
+/raw_frames/nosferatu_raw_000179.jpg
+/raw_frames/nosferatu_raw_000336.jpg
 
-## Narrative Labels
+### satanic_symbols
+Ορισμός: Σύμβολο, σχέδιο ή αντικείμενο που παραπέμπει σε σατανική σημασία.
 
-| Label | Meaning |
-| --- | --- |
-| expository_evidence | The frame supports the film's lecture/documentary argument. |
-| historical_reenactment | The frame dramatizes a medieval or early-modern historical scene. |
-| supernatural_spectacle | The frame emphasizes horror, demons, magic or uncanny spectacle. |
-| institutional_power | The frame shows law, church, medicine or social authority acting on people. |
-| accusation_or_confession | The frame centers suspicion, confession, denunciation or blame. |
-| punishment_or_threat | The frame centers torture, execution, imprisonment or coercion. |
-| domestic_fear | The frame places fear, temptation or suspicion inside a home/private space. |
-| modern_explanation | The frame connects witchcraft beliefs with modern psychology/medicine. |
-| transition_or_low_information | The frame is mostly transitional, unclear or visually low-information. |
+Κριτήρια ένταξης: Χρησιμοποιείται όταν το βασικό οπτικό στοιχείο του frame είναι σύμβολο που συνδέεται με τον σατανά.
 
-## Confidence Values
+Κριτήρια αποκλεισμού: Δεν χρησιμοποιείται όταν το βασικό στοιχείο είναι ο ίδιος ο σατανάς ή κάποιο τελετουργικό αντικείμενο.
 
-- high: label is visually obvious.
-- medium: label is likely but depends on scene context.
-- low: label is uncertain; explain in annotator_notes.
+/raw_frames/nosferatu_raw_000322.jpg
+/raw_frames/nosferatu_raw_000039.jpg
+/raw_frames/nosferatu_raw_000623.jpg
 
-## Important Rule
+### dark_figures
+Ορισμός: Ανθρωπόμορφες μορφές, όπου δεν φαίνονται ξεκάθαρα τα πρόσωπο τους. 
 
-Labels describe the film's representation, not reality. For example, use witch_accused_woman when the film frames a person as a witch or accused witch; do not use labels as claims about real identity.
+Κριτήρια ένταξης: Μη φανέρωση προσώπου ώστε να διατηρηθεί μια μυστικιστικότητα και να διατηρήσει ένα είδος φόβου όπως αυτό του σκωταδιού, όπου ο άνθρωπος δεν γνωρίζει τι βρίσκεται στο σκωτάδι.
+
+Κριτήρια αποκλεισμού: φανέρωση προσώπου, φανέρωση σώματος, σταματάει να είναι μυστικό
+
+/raw_frames/nosferatu_raw_000164.jpg
+/raw_frames/nosferatu_raw_000458.jpg
+
+### frightened_faces 
+Ορισμός: Ανθρώπινο πρόσωπο που εμφανίζεται με έκφραση φόβου.
+Κριτήρια ένταξης: Χρησιμοποιείται όταν το πρόσωπο είναι το βασικό οπτικό στοιχείο του frame και η έκφρασή του οργανώνει το νόημα της εικόνας ως φόβο.
+
+Κριτήρια αποκλεισμού: Δεν χρησιμοποιείται όταν η έκφραση του προσώπου δεν είναι καθαρά ορατή ή δεν είναι σημαντική για το κύριο frame.
+
+/raw_frames/nosferatu_raw_000440.jpg
+/raw_frames/nosferatu_raw_000494.jpg
+/raw_frames/nosferatu_raw_000516.jpg
+/raw_frames/nosferatu_raw_000431.jpg
+
+### torture_scene 
+Ορισμός: Σωματική, σταδιακή βλάβη ώστε να υποκύψει ή να πεθάνει ένα θύμα. 
+
+Κριτήρια ένταξης: Εμφανή σημάδια χρήσης αντικειμένων για την κακοποίση του θύματος, χρειάζεται άνθρωπος για να διεξάγει τα βασανιστήρια. 
+
+Κριτήρια αποκλεισμού: Δεν χρησιμοποιείται όταν το βασικό νόημα του frame είναι το σώμα που υποφέρει και όχι το ίδιο το αντικείμενο.
+
+/raw_frames/nosferatu_raw_000472.jpg
+/raw_frames/nosferatu_raw_000276.jpg
+/raw_frames/nosferatu_raw_000473jpg
+/raw_frames/nosferatu_raw_000474.jpg
+
+## 2. Narrative labels
+
+supernatural_threat -> σατανική/υπερφυσική απειλή
+/raw_frames/nosferatu_raw_000169.jpg
+/raw_frames/nosferatu_raw_000179.jpg
+
+Ορισμός: Υπερφυσικά φαινόμενα όπου ό άνθρωπος δεν μπορεί να εξηγήσει αλλά μπορεί αν παρομιάσει με θεϊκές οντώτητες.
+
+Κριτήρια ένταξης: Κάτι το οποίο συμβαίνει, δεν υπακούει σε νόμους φυσικής αλλά ούτε και λογικής
+
+Κριτήριο αποκλεισμού: Συνήθως, άνθρωπος θρησκευτικός τα βάζει με το υπερφυσικό φαινόμενο.
+######
+ritual_or_curse -> τελετή ή κατάρα
+/raw_frames/nosferatu_raw_000148.jpg
+/raw_frames/nosferatu_raw_000039.jpg
+
+Ορισμός: Η αφηγηματική λειτουργία όπου το frame υποδηλώνει την εκτέλεση κάποιας σκοτεινής τελετής, μαγείας ή την επιβολή/ενέργεια μιας κατάρας.
+
+Κριτήρια ένταξης: Χρησιμοποιείται όταν τα στοιχεία της εικόνας (στάσεις σωμάτων, αντικείμενα, φωτισμός)
+λειτουργούν αφηγηματικά για να δείξουν ότι συντελείται ενεργά ένα τελετουργικό ή ότι ένας χαρακτήρας υφίσταται τις
+συνέπειες μιας κατάρας.
+
+Κριτήρια αποκλεισμού: Δεν χρησιμοποιείται όταν βλέπουμε απλώς ένα στατικό σύμβολο (το οποίο θα ταίριαζε στο
+occult_symbolism) χωρίς να υποδηλώνεται η πράξη της τελετής ή κάποια υπερφυσική ενέργεια σε εξέλιξη.
+######
+body_vulnerability -> ευαισθησία σώματος από βασανισμούς
+/raw_frames/nosferatu_raw_000472.jpg
+/raw_frames/nosferatu_raw_000276.jpg
+
+Ορισμός: Η αφηγηματική λειτουργία που τονίζει την αδυναμία, τον πόνο, ή την έκθεση του ανθρώπινου σώματος σε
+βλάβη, συνήθως ως αποτέλεσμα κακοποίησης ή βασανιστηρίων.
+
+Κριτήρια ένταξης: Χρησιμοποιείται όταν το κεντρικό νόημα της σκηνής είναι να αναδείξει την τρωτότητα του θύματος.
+Το σώμα βρίσκεται σε κατάσταση ανημπόριας, πόνου ή αιχμαλωσίας.
+
+Κριτήρια αποκλεισμού: Δεν χρησιμοποιείται αν εμφανίζεται απλώς το όργανο του βασανιστηρίου (το οποίο ανήκει στην
+οπτική κατηγορία Torture) χωρίς να δίνεται αφηγηματική έμφαση στο σώμα του θύματος που υποφέρει.
+######
+occult_symbolism -> σατανικός συμβολισμός
+/raw_frames/nosferatu_raw_000322.jpg
+/raw_frames/nosferatu_raw_000039.jpg
+
+Ορισμός: Η αφηγηματική λειτουργία κατά την οποία η παρουσία γραφικών συμβόλων, αντικειμένων ή σχεδίων
+χρησιμοποιείται για να εγκαθιδρύσει μια σατανική ή μυστικιστική ατμόσφαιρα στην πλοκή.
+
+Κριτήρια ένταξης: Χρησιμοποιείται όταν το σύμβολο δεν λειτουργεί απλώς ως αντικείμενο στο χώρο (Satanic_symbols),
+αλλά η αφηγηματική του λειτουργία είναι να προμηνύει το κακό, να επιβεβαιώνει την παρουσία του διαβόλου ή να
+οργανώνει το νόημα όλης της σκηνής γύρω από τον αποκρυφισμό.
+
+Κριτήρια αποκλεισμού: Δεν χρησιμοποιείται αν τα σύμβολα είναι καθαρά διακοσμητικά ή αν το κεντρικό νόημα της
+σκηνής είναι άλλο.
+
+## unknown_ambiguous
+
+Ορισμός: Frames όπου το οπτικό ή αφηγηματικό περιεχόμενο δεν είναι ξεκάθαρο ή δεν εντάσσεται στις υπόλοιπες κατηγορίες
+/raw_frames/nosferatu_raw_000048.jpg
