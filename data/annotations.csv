@@ -1,50 +1,50 @@
 image_id,frame_filename,primary_object_label,secondary_object_labels,narrative_label,confidence,requires_context,annotator_id,annotator_notes
-nosferatu_000005,nosferatu_000005.jpg,,,,,,,
-nosferatu_000013,nosferatu_000013.jpg,,,,,,,
-nosferatu_000023,nosferatu_000023.jpg,,,,,,,
-nosferatu_000044,nosferatu_000044.jpg,,,,,,,
-nosferatu_000048,nosferatu_000048.jpg,,,,,,,
-nosferatu_000054,nosferatu_000054.jpg,,,,,,,
-nosferatu_000056,nosferatu_000056.jpg,,,,,,,
-nosferatu_000059,nosferatu_000059.jpg,,,,,,,
-nosferatu_000064,nosferatu_000064.jpg,,,,,,,
-nosferatu_000076,nosferatu_000076.jpg,,,,,,,
-nosferatu_000078,nosferatu_000078.jpg,,,,,,,
-nosferatu_000081,nosferatu_000081.jpg,,,,,,,
-nosferatu_000083,nosferatu_000083.jpg,,,,,,,
-nosferatu_000085,nosferatu_000085.jpg,,,,,,,
-nosferatu_000088,nosferatu_000088.jpg,,,,,,,
-nosferatu_000089,nosferatu_000089.jpg,,,,,,,
-nosferatu_000093,nosferatu_000093.jpg,,,,,,,
-nosferatu_000094,nosferatu_000094.jpg,,,,,,,
-nosferatu_000095,nosferatu_000095.jpg,,,,,,,
-nosferatu_000096,nosferatu_000096.jpg,,,,,,,
-nosferatu_000101,nosferatu_000101.jpg,,,,,,,
-nosferatu_000102,nosferatu_000102.jpg,,,,,,,
-nosferatu_000104,nosferatu_000104.jpg,,,,,,,
-nosferatu_000110,nosferatu_000110.jpg,,,,,,,
-nosferatu_000112,nosferatu_000112.jpg,,,,,,,
-nosferatu_000113,nosferatu_000113.jpg,,,,,,,
-nosferatu_000114,nosferatu_000114.jpg,,,,,,,
-nosferatu_000115,nosferatu_000115.jpg,,,,,,,
-nosferatu_000117,nosferatu_000117.jpg,,,,,,,
-nosferatu_000119,nosferatu_000119.jpg,,,,,,,
-nosferatu_000121,nosferatu_000121.jpg,,,,,,,
-nosferatu_000122,nosferatu_000122.jpg,,,,,,,
-nosferatu_000123,nosferatu_000123.jpg,,,,,,,
-nosferatu_000125,nosferatu_000125.jpg,,,,,,,
-nosferatu_000126,nosferatu_000126.jpg,,,,,,,
-nosferatu_000127,nosferatu_000127.jpg,,,,,,,
-nosferatu_000129,nosferatu_000129.jpg,,,,,,,
-nosferatu_000133,nosferatu_000133.jpg,,,,,,,
-nosferatu_000137,nosferatu_000137.jpg,,,,,,,
-nosferatu_000143,nosferatu_000143.jpg,,,,,,,
-nosferatu_000148,nosferatu_000148.jpg,,,,,,,
-nosferatu_000151,nosferatu_000151.jpg,,,,,,,
-nosferatu_000154,nosferatu_000154.jpg,,,,,,,
-nosferatu_000156,nosferatu_000156.jpg,,,,,,,
-nosferatu_000159,nosferatu_000159.jpg,,,,,,,
-nosferatu_000162,nosferatu_000162.jpg,,,,,,,
+nosferatu_000005,nosferatu_000005.jpg,frightened_faces,,unknown_ambiguous,medium,no,1,το frame δειχνει ενα θυμωμενο σχετικα προσωπο
+nosferatu_000013,nosferatu_000013.jpg,satanic_symbols,dark_figures; demon_figures,occult_symbolism,medium,no,1,το frame δειχνει 6 περιεργες φιγουρες
+nosferatu_000023,nosferatu_000023.jpg,dark_figures,,unknown_ambiguous,low,no,1,το frame δειχνει σαν ενα μακρινο background
+nosferatu_000044,nosferatu_000044.jpg,satanic_symbols,demon_figures; frightened_faces,ritual_or_curse,yes,1,το frame δειχνει σαν μια τελετη και παγιδευμενους ανθρωπους
+nosferatu_000048,nosferatu_000048.jpg,demon_figures,satanic_symbols; dark_figures,supernatural_threat,high,no,1,το frame δειχνει κοκκινο αερα στον χωρο και εναν δαιμονα να καθεται στον θρονο
+nosferatu_000054,nosferatu_000054.jpg,frightened_faces,,unknown_ambiguous,medium,yes,1,το frame δειχνει κατι ανθρωπους να εργαζονται στα χωραφια καπως φοβισμενοι
+nosferatu_000056,nosferatu_000056.jpg,frightened_faces,,unknown_ambiguous,medium,yes,1,το frame δειχνει 3 ανθρωπους οπου ο ενας παρακαλαει φοβισμενος τον εναν απο τους δυο
+nosferatu_000059,nosferatu_000059.jpg,satanic_symbols,,ritual_or_curse,medium,yes,1,το frame δειχνει οτι πανε να θυσιασουν μια κατσικα
+nosferatu_000064,nosferatu_000064.jpg,torture_scene,,ritual_or_curse,medium,yes,1,to frame δειχνει σαν να θυσιαζουν μια γυναικα με ενα δηλητηριο
+nosferatu_000076,nosferatu_000076.jpg,demon_figures,,supernatural_threat,high,no,1,το frame δειχνει κοσμο να ακουλουθαει εναν δαιμονα
+nosferatu_000078,nosferatu_000078.jpg,demon_figures,,occult_symbolism,low,no,1,το frame δειχνει μια κυρια να αιωρειτε με ενα ζωο
+nosferatu_000081,nosferatu_000081.jpg,frightened_faces,satanic_symbols,ritual_or_curse,medium,no,1,το frame δειχνει σαν να κανουν κατι περιεργα πλασματα μια τελετη με ανθρωπους
+nosferatu_000083,nosferatu_000083.jpg,frightened_faces,demon_figures,occult_symbolism,medium,no,1,το frame δειχνει σαν να γινεται μια τελετη και επιτεθηκαν δαιμονες σε ανθρωπους
+nosferatu_000085,nosferatu_000085.jpg,dark_figures,,unknown_ambiguous,high,yes,1,το frame δειχνει μια κυρια που σαν να κανει τελετη
+nosferatu_000088,nosferatu_000088.jpg,dark_figures,,unknown_ambiguous,high,yes,1,το frame δειχνει μια κυρια σαν να κανει τελετη
+nosferatu_000089,nosferatu_000089.jpg,dark_figures,,unknown_ambiguous,medium,yes,1,το frame δειχνει τρεις κυριες που μαλλον ετοιμαζουν μια τελετη
+nosferatu_000093,nosferatu_000093.jpg,dark_figures,,unknown_ambiguous,high,no,1,το frame δειχνει μια περιεργη κυρια σε περιεργη κατασταση
+nosferatu_000094,nosferatu_000094.jpg,dark_figures,,unknown_ambiguous,high,yes,1,το frame δειχνει δυο κυριες
+nosferatu_000095,nosferatu_000095.jpg,dark_figures,satanic_symbols,occult_symbolism,high,yes,1,το frame δειχνει μια κυρια και μια νεκροκεφαλη
+nosferatu_000096,nosferatu_000096.jpg,dark_figures,,unknown_ambiguous,high,yes,1,το frame δειχνει μια κυρια
+nosferatu_000101,nosferatu_000101.jpg,satanic_symbols,,occult_symbolism,high,no,1,το frame δειχνει μερικα σατανικα αντικειμενα μεσα σε ενα μπολ
+nosferatu_000102,nosferatu_000102.jpg,dark_figures,,unknown_ambiguous,high,yes,1,το frame δειχνει δυο κυριες
+nosferatu_000104,nosferatu_000104.jpg,dark_figures,,unknown_ambiguous,high,no,1,το frame δειχνει μια κυρια εξω απο ενα σπιτι
+nosferatu_000110,nosferatu_000110.jpg,frightened_faces,,unknown_ambiguous,low,no,1,το frame δειχνει μια κυρια να κοιταει περιεργα ενα αντικειμενο που κραταει ενας αντρας
+nosferatu_000112,nosferatu_000112.jpg,frightened_faces,,unknown_ambiguous,low,yes,1,το frame δειχνει εναν αντρα να γελαει και μια γυναικα που τον κοιταει
+nosferatu_000113,nosferatu_000113.jpg,frightened_faces,,unknown_ambiguous,low,no,1,το frame δειχνει μια γυναικα να γελαει
+nosferatu_000114,nosferatu_000114.jpg,frightened_faces,,unknown_ambiguous,low,yes,1,το frame δειχνει ενα αντρογυνο να γελαει
+nosferatu_000115,nosferatu_000115.jpg,frightened_faces,,unknown_ambiguous,low,yes,1,το frame δειχνει ενα αντρογυνο να γελαει
+nosferatu_000117,nosferatu_000117.jpg,dark_figures,,unknown_ambiguous,medium,no,1,το frame δειχνει μια κυρια να κοιταει περιεργα εναν αντρα
+nosferatu_000119,nosferatu_000119.jpg,frightened_faces,,unknown_ambiguous,low,no,1,το frame δειχνει μια γυναικα να γελαει
+nosferatu_000121,nosferatu_000121.jpg,frightened_faces,,unknown_ambiguous,low,no,1,το frame δειχνει εναν αντρα να γευματιζει
+nosferatu_000122,nosferatu_000122.jpg,frightened_faces,,unknown_ambiguous,low,no,1,το frame δειχνει εναν αντρα να πινει κατι
+nosferatu_000123,nosferatu_000123.jpg,frightened_faces,,unknown_ambiguous,low,yes,1,το frame δειχνει εναν αντρα να γελαει
+nosferatu_000125,nosferatu_000125.jpg,dark_figures,,unknown_ambiguous,high,no,1,το frame δειχνει μια κυρια σε ενα δασος
+nosferatu_000126,nosferatu_000126.jpg,dark_figures,,unknown_ambiguous,high,no,1,το frame δειχνει ενα αντρογυνο στο δασος
+nosferatu_000127,nosferatu_000127.jpg,dark_figures,,unknown_ambiguous,high,no,1,το frame δειχνει ενα αντρογυνο
+nosferatu_000129,nosferatu_000129.jpg,dark_figures,,unknown_ambiguous,high,no,1,το frame δειχνει εναν αντρα και μια κυρια
+nosferatu_000133,nosferatu_000133.jpg,dark_figures,,unknown_ambiguous,high,no,1,το frame δειχνει μια κυρια εξω απο ενα σπιτι
+nosferatu_000137,nosferatu_000137.jpg,frightened_faces,,unknown_ambiguous,high,yes,1,το frame δειχνει μια κυρια τρομαγμενη
+nosferatu_000143,nosferatu_000143.jpg,torture_scene,,ritual_or_curse,high,yes,1,το frame δειχνει δυο αντρες που προσπαθουν να σκοτωσουν μια κυρια
+nosferatu_000148,nosferatu_000148.jpg,torture_scene,,ritual_or_curse,high,no,1,το frame δειχνει δυο αντρες πυ σκοτωσουν μια κυρια με μαχαιρι
+nosferatu_000151,nosferatu_000151.jpg,dark_figures,,unknown_ambiguous,high,no,1,το frame δειχνει μια κυρια εξω απο ενα σπιτι
+nosferatu_000154,nosferatu_000154.jpg,dark_figures,,unknown_ambiguous,high,yes,1,το frame δειχνει μια κυρια και εναν αντρα εξω απο ενα σπιτι
+nosferatu_000156,nosferatu_000156.jpg,dark_figures,,unknown_ambiguous,high,no,1,το frame δειχνει μια κυρια και εναν αντρα εξω απο ενα σπιτι
+nosferatu_000159,nosferatu_000159.jpg,dark_figures,,unknown_ambiguous,high,no,1,το frame δειχνει εναν αντρα με πλανο την πλατη του
+nosferatu_000162,nosferatu_000162.jpg,frightened_faces,,unknown_ambiguous,high,yes,1,το frame δειχνει μια κυρια τρομαγμενη ξαπλωμενη
 nosferatu_000164,nosferatu_000164.jpg,,,,,,,
 nosferatu_000167,nosferatu_000167.jpg,,,,,,,
 nosferatu_000169,nosferatu_000169.jpg,,,,,,,
