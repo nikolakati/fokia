@@ -5,7 +5,7 @@ nosferatu_000078,demon_figures,dark_figures,occult_symbolism,occult_symbolism,lo
 nosferatu_000089,dark_figures,dark_figures,unknown_ambiguous,unknown_ambiguous,medium,low,yes,no,disagreement,context / confidence, dark_figures / unknown_ambiguous, Frame δείχνει κυρίες που ετοιμάζουν τελετή
 nosferatu_000101,satanic_symbols,satanic_symbols,occult_symbolism,occult_symbolism,high,medium,no,no,disagreement,confidence,satanic_symbols / occult_symbolism,Frame δείχνει σατανικά αντικείμενα μέσα σε bowl
 nosferatu_000113,frightened_faces,frightened_faces,unknown_ambiguous,unknown_ambiguous,low,low,no,no,agreement,none,frightened_faces / unknown_ambiguous,Frame δείχνει χαρακτήρα να βάζει νερό γελόντας
-nosferatu_000121,frightened_faces,frightened_faces,unknown_ambiguous,unknown_ambiguous,low,low,no,none,agreement,none,frightened_faces / unknown_ambiguous,Frame δείχνει χαρακτήρα να τρώει
+nosferatu_000121,frightened_faces,frightened_faces,unknown_ambiguous,unknown_ambiguous,low,low,no,no,agreement,none,frightened_faces / unknown_ambiguous,Frame δείχνει χαρακτήρα να τρώει
 nosferatu_000127,dark_figures,dark_figures,unknown_ambiguous,unknown_ambiguous,high,low,no,no,disagreement,confidence,dark_figures / unknown_ambiguous,Frame δείχνει αντρόγυνο
 nosferatu_000148,torture_scene,dark_figures,ritual_or_curse,body_vulnerability,high,high,no,no,disagreement,object / narrative,torture_scene / body_vulnerability,Frame δείχνει θυσία με μαχαίρι
 nosferatu_000162,frightened_faces,frightened_faces,unknown_ambiguous,unknown_ambiguous,high,high,yes,no,disagreement,context,frightened_faces / unknown_ambiguous,Frame δείχνει γυναίκα τρομαγμένη στο κρεβάτι της
@@ -26,7 +26,7 @@ nosferatu_000329,dark_figures,dark_figures,unknown_ambiguous,ritual_or_curse,low
 nosferatu_000337,dark_figures,dark_figures,unknown_ambiguous,unknown_ambiguous,low,low,no,no,agreement,none,dark_figures / unknown_ambiguous,Frame δείχνει χαρακτήρες να συζητούν και να χαμογελούν
 nosferatu_000349,dark_figures,dark_figures,unknown_ambiguous,unknown_ambiguous,low,high,no,no,disagreement,confidence,dark_figures / unknown_ambiguous,Frame δείχνει χαρακτήρες να κάθονται 
 nosferatu_000359,dark_figures,dark_figures,unknown_ambiguous,unknown_ambiguous,low,low,no,no,agreement,none,dark_figures / unknown_ambiguous,Frame δείχνει χαρακτήρες να μιλάνε
-nosferatu_000368,dark_figures,dark_figures,unknown_ambiguous,unknown_ambiguous,low,low,no,none,agreement,none,dark_figures / unknown_ambiguous,Frame δεέχνει μητέρα να κοιτάει το μωρό της
+nosferatu_000368,dark_figures,dark_figures,unknown_ambiguous,unknown_ambiguous,low,low,no,no,agreement,none,dark_figures / unknown_ambiguous,Frame δεέχνει μητέρα να κοιτάει το μωρό της
 nosferatu_000376,dark_figures,dark_figures,unknown_ambiguous,unknown_ambiguous,low,low,no,no,agreement,none,dark_figures / unknown_ambiguous,Frame δείχνει χαρακτήρα να στέκεται στην είσοδο κρατόντας αντικείμενο
 nosferatu_000394,dark_figures,dark_figures,unknown_ambiguous,unknown_ambiguous,low,low,no,no,agreement,none,dark_figures / unknown_ambiguous,Frame δείχνει χαρακτήρες να συζητούν
 nosferatu_000406,torture_scene,torture_scene,body_vulnerability,body_vulnerability,medium,high,yes,no,disagreement,confidence / context,torture_scene / body_vulnerability,Frame δείχνει χαρακτήρα να βασανίζει θύμα
