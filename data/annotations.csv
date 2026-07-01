@@ -2,7 +2,7 @@ image_id,frame_filename,primary_object_label,secondary_object_labels,narrative_l
 nosferatu_000005,nosferatu_000005.jpg,frightened_faces,,unknown_ambiguous,medium,no,1,το frame δειχνει ενα θυμωμενο σχετικα προσωπο
 nosferatu_000013,nosferatu_000013.jpg,satanic_symbols,dark_figures; demon_figures,occult_symbolism,medium,no,1,το frame δειχνει 6 περιεργες φιγουρες
 nosferatu_000023,nosferatu_000023.jpg,dark_figures,,unknown_ambiguous,low,no,1,το frame δειχνει σαν ενα μακρινο background
-nosferatu_000044,nosferatu_000044.jpg,satanic_symbols,demon_figures; frightened_faces,ritual_or_curse,yes,1,το frame δειχνει σαν μια τελετη και παγιδευμενους ανθρωπους
+nosferatu_000044,nosferatu_000044.jpg,satanic_symbols,demon_figures; frightened_faces,ritual_or_curse,high, yes,1,το frame δειχνει σαν μια τελετη και παγιδευμενους ανθρωπους
 nosferatu_000048,nosferatu_000048.jpg,demon_figures,satanic_symbols; dark_figures,supernatural_threat,high,no,1,το frame δειχνει κοκκινο αερα στον χωρο και εναν δαιμονα να καθεται στον θρονο
 nosferatu_000054,nosferatu_000054.jpg,frightened_faces,,unknown_ambiguous,medium,yes,1,το frame δειχνει κατι ανθρωπους να εργαζονται στα χωραφια καπως φοβισμενοι
 nosferatu_000056,nosferatu_000056.jpg,frightened_faces,,unknown_ambiguous,medium,yes,1,το frame δειχνει 3 ανθρωπους οπου ο ενας παρακαλαει φοβισμενος τον εναν απο τους δυο
