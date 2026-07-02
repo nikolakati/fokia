@@ -1,0 +1,1 @@
+yolo predict model=yolov8n.pt source=data/images/audit_sample save=True save_txt=True save conf=True conf=0.25 project=outputs name=yolo_annotated_examples

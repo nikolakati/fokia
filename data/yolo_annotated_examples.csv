@@ -1,0 +1,21 @@
+image_id,frame_filename,human_primary_object_label,human_narrative_label,yolo_detected_labels,yolo_confidences,yolo_num_detections,audit_category,missed_object,comment
+nosferatu_000169,nosferatu_000169.jpg,demon_figures,supernatural_threat,dog,0.62,1,misclassified_object,demon_figures,Η δεμονική φιγούρα αναγνωρίστηκε ώς σκυλί με σχετικά ψηλό confidence
+nosferatu_000177,nosferatu_000177.jpg,satanic_symbols,occult_symbolism,person,0.40,1,correct_detection,,Το μοντέλο είδε σωστά την ύπαρξη ανθρώπου ενώ εμείς όχι
+nosferatu_000179,nosferatu_000179.jpg,demon_figures,supernatural_threat,person,0.33,1,partial_detection,demon_figures,Έχει ανθρωπόμορφη μορφή η φιγούρα
+nosferatu_000180,nosferatu_000180.jpg,frightened_faces,unknown_ambiguous,dog,0.71,misclassified_object,person,Είναι άνθρωπος ενώ το μοντέλο νομίζει ότι βλέπει σκύλο με πολύ αυξημένο confidence
+nosferatu_000203,nosferatu_000203.jpg,frightened_faces,unknown_ambiguous,person; person,0.83; 0.76,2,correct_detection,,Σωστά με υψηλό confidence διέκρινε την ύπαρξη ανθρώπων 
+nosferatu_000246,nosferatu_000246.jpg,frightened_faces,unknown_ambiguous,donut,0.38,1,misclassified_object,,Δεν βλέπει ενα πρόσωπο και δύο χέρια παρά νομίζει το χερί οτι είναι donut με όχι τόσο confidence
+nosferatu_000277,nosferatu_000277.jpg,torture_scene,body_vulnerability,person,0.34,1,correct_detection,,Βλέπει σωστά τον βασανισμένο άνθρωπο, με χαμηλό confidence όμως
+nosferatu_000282,nosferatu_000282.jpg,dark_figures,body_vulnerability,person,0.81,1,missed_object,person,Βλέπει σωστά τον έναν άνθρωπο λόγω ύπαρξης προσώπου με υψηλό confidence, όμως δεν μπορεί να αναγνωρίσει τον άνθρωπο ακριβώς από δίπλα του
+nosferatu_000286,nosferatu_000286.jpg,dark_figures,ritual_or_curse,person; person,0.60; 0.51, 2,missed_object,person,Βλέπει σωστά τους δύο ανθρώπους που φαίνονται ξεκάθαρα όμως υπάρχει κιάλλος ένας άνρθωπος στο frame που δεν αναγνωρίστηκε λόγω σκωτεινού frame
+nosferatu_000304,nosferatu_000304.jpg,dark_figures,unknown_ambiguous,person; person; person; person,0.43; 0.86; 0.68; 0.77,4,correct_detection,,Βλέπει σωστά και τους τέσσερις ανθρώπους
+nosferatu_000309,nosferatu_000309.jpg,dark_figures,body_vulnerability,person; dog,0.44; 0.35,2,partial_detection,person αντί για dog,Εντοπίστηκε σωστά ο peson όμως δεν υπήρχε dog μόνο άλλος ένας άνθρωπος
+nosferatu_000325,nosferatu_000325.jpg,dark_figures,unknown_ambiguous,person,0.60,1,missed_object,person,Υπήρχε άλλη μια φιγούρα δίπλα από τον person που έγινε σωστά detected
+nosferatu_000327,nosferatu_000327.jpg,demon_figures,ritual_or_curse,bear; person,0.33; 0.1,2,model_category_missing,demon_figures,Εκτώς από ότι δεν έγιναν detected διάφοροι person στo frame μια σατανική φιγούρα έγινε labeled ως bear που είναι λάθος
+nosferatu_000345,nosferatu_000345.jpg,frightened_faces,unknown_ambiguous,person; dog,0.30; 0.32,2,irrelevant_detection,,Έγινε extra detection στο ίδιο object με παρόμοιο confidence κιόλας βεβαια το πρώτο detection είναι σωστό
+nosferatu_000365,nosferatu_000365.jpg,dark_figures,unknown_ambiguous,person; bed,0.27; 0.45,2,missed_object,person,Υπήρχε και ένας peson πάνω στο bed βεβαια δεν φαίνεται καλά
+nosferatu_000367,nosferatu_000367.jpg,torture_scene,body_vulnerability,person; person; person; person, 0.23; 0.64; 0.33; 0.77,4,partial_detection,person,Υπάρχει άλλος ένας άνθρωπος στο frame που κρέμεται με τα χέρια ψηλά
+nosferatu_000406,nosferatu_000406.jpg,torture_scene,body_vulnerability,chair,0.43,1,missed_object,person,Δεν κάνει detect δύο ανθρώπους ενώ φαίνεται το πρόσωπο του ενός και η πλάτη του άλλου που είναι πιο εύκολο να το κάνει detect
+nosferatu_000457,nosferatu_000457.jpg,demon_figures,supernatural_threat,person,0.25,1.model_category_missing,demon_figures,Υπάρχουν δύο ανθρωπόμορφες φιγούρες με αμφίεση ζώου οι οποίες δεν γίνονται detected
+nosferatu_000470,nosferatu_000470.jpg,satanic_symbols,occult_symbolism,banana,0.29,1,model_category_missing,tool,Εργαλείο το οποίο δεν υπάρχει positive και negative για να συφκριθεί
+nosferatu_000496,nosferatu_000496.jpg,dark_figures,unknown_ambiguous,person; person; person,0.66; 0.57; 0.41,3,partial_detection,person,Βρήκε τις περισσότερες φιγούρες που υπάρχουν στο frame όμως λείπει μια
